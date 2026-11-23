@@ -1,7 +1,9 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+ 
+## Name :LINGESHWARI K
+## Roll no :212225220057
+## Date of experiment :23-11-2026
+
 
 
 
@@ -78,26 +80,109 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
+```
+MOV AL,74H
+MOV BL,69H
+SUB AL,BL
+HLT
 
+```
 
 
 ## Output  
- 
+<img width="1093" height="557" alt="image" src="https://github.com/user-attachments/assets/3a2acb9b-9fef-4373-b800-c0b153756fa9" />
+
+
+
 ## Subtraction   of 8 bit numbers  ALP 
- 
-## Output  
+ ```
+MOV AL,74H
+MOV BL,69H
+SUB AL,BL
+HLT
+```
+## Output
+<img width="1093" height="557" alt="image" src="https://github.com/user-attachments/assets/eb926dc5-68fc-4906-ba80-af41e08ae661" />
+
 ## Multiplication alp 
+```
+org 100h
+MOV AL,75H
+MOV BL,32H
+MUL BL
+HLT
+ret
+```
  ## Output  
+<img width="1081" height="547" alt="image" src="https://github.com/user-attachments/assets/48035a40-5685-45f8-a6eb-7cdeca40a265" />
+
 
 
 ## Division alp 
-
+```
+org 100h
+MOV AL,70H
+MOV BL,10H
+DIV BL
+HLT
+ret
+```
 ## Output  
+<img width="1102" height="557" alt="image" src="https://github.com/user-attachments/assets/a08596ee-3e5d-4da1-80cf-5c8dfbf5c53a" />
+
+
+## AND GATE OF 8 BIT ALP:
+
+```
+org 100h
+MOV AL,33H
+MOV BL,44H
+AND AL,BL
+HLT
+ret
+```
+## OUTPUT
+<img width="1110" height="554" alt="image" src="https://github.com/user-attachments/assets/4f96d779-57d8-46e3-97e7-2a1e6523a146" />
+
+## OR GATE OF 8 BIT ALP:
+```
+org 100h
+MOV AL,33H
+MOV BL,44H
+OR AL,BL
+HLT
+ret
+```
+## OUTPUT
+<img width="1092" height="573" alt="image" src="https://github.com/user-attachments/assets/d2a4178a-645c-45d7-9cc4-994cd3298e94" />
+
+## NOT GATE OF 8 BIT ALP:
+```
+org 100h
+MOV AL,65H
+NOT AL
+HLT
+ret
+```
+## OUTPUT
+<img width="1093" height="548" alt="image" src="https://github.com/user-attachments/assets/24045501-2c20-4b0c-ba94-e5f835de7b6c" />
+
+## XOR GATE OF 8 BIT ALP:
+```
+org 100h
+MOV AL,66H
+MOV BL,77H
+XOR AL,BL
+HLT
+ret
+```
+## OUTPUT
+<img width="1101" height="563" alt="image" src="https://github.com/user-attachments/assets/bc1a27f0-808e-4463-82b1-b71a72c6f1b1" />
 
 
 ## Result :
  
-
+Thus the program has been executed successfully.
 
 
 
